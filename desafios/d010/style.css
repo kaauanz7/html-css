@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Bebeas;
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color:#84E1AD;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background: linear-gradient(#36C374, #2fa765bb, #227A49, #1A5C38);
+    padding: 30px;
+    box-shadow: 0px 2px 3px black;
+}
+
+.titulop {
+    text-align: center;
+    font-family: Bebeas;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 25px;
+}
+
+
+.menu > a {text-decoration: none;
+    font: 600 medium sans-serif;
+    color: #cbf3bf;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.container {
+    background-color: #fff;
+    height: 100%;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    padding-top: 25px;
+    box-shadow: 0px 5px 7px black;
+}
+
+.titulo {
+    font-family: Idroid;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #EDF8F2;
+    color: #143A2D;
+}
+
+.paragrafo {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: large;
+    letter-spacing:normal;
+}
+
+.subtitulo2 {
+    font-family: Idroid;
+    color: #216B3F;
+    text-align: left;
+    padding-left: 20px;
+    background-color: #B7EFC9;
+}
+
+.imagem {
+    width: 750px;
+}
+
+.video {
+    background-color: #143A2D;
+    height: 250px;
+    padding: 20px;
+}
+
+.video1 {
+    padding-top: 20px;
+}
+
+.titulo3 {
+    background-color: #2FA866;
+    font-family: sans-serif;
+    font-size: medium;
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lista {
+    height: 300px;
+    text-align: left;
+}
+
+.lista > li::marker {
+    content: "✔ ";
+}
+
+.listaback {
+    padding: 2px;
+    background-color: #C5EBD6;
+}
+
+.footer {
+    background-color: #143A2D;
+    font-family: sans-serif;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #227A49;
+}
+
+.link::before {
+    content: "🔗";
+}

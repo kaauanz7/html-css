@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* em HTML é id em CSS é #
+   em HTML é class em CSS é .
+   */
+/*Fonte, margin, padding → rem
+Borda, sombra, detalhes → px
+em → casos específicos
+*/
+
+body {
+    background-color: #A1DBA1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #48864C;
+}
+
+h1#principal {
+    text-align: center;
+    color: #fff;
+    background-color: #405C42;
+    border-radius: 16px;
+}
+
+h2 {
+    color: #48864C;
+}
+
+.aprendendo {
+    text-align: center;
+    background-color: #405C42;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.basico {
+    color: #48864C;
+}
+
+.intermediario {
+    color: #8b8203;
+}
+
+.avancado {
+    color: rgba(156, 1, 1, 0.685);
+}
+
+.paragrafo {
+    text-align: justify;
+}

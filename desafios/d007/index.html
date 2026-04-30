@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Esta é uma imagem flexível que se adapta ao tamanho da tela. Experimente redimensionar a janela do navegador para ver o efeito.</p>
+    <picture>
+        <source media="(max-width: 705px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1005px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="foto flexível">
+    </picture>
+    
+</body>
+</html>

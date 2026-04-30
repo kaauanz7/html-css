@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: iddroid;
+    src: url(fontes/idroid.otf);
+    width: normal;
+    height: normal;
+}
+
+@font-face {
+    font-family: bebeas;
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+body {
+    margin: auto;
+}
+
+#cabecalho {
+    background: linear-gradient(#27A15C, #136C38, #023B1A);
+    color: #fff;
+    height: 250px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.781);
+}
+
+.titulo {
+    font-family: bebeas;
+    font-weight: 200;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px #000000;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.subtitulo {
+    font-weight:400;
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.menu > a {
+    text-decoration: none;
+    font: 600 medium sans-serif;
+    color: #cbf3bf;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+
+.menu > a:hover {
+    background-color: #238A4E;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    transition: 100ms;
+
+}
+
+.menu > a::after {
+}
+
+.fundo  {
+    background-color: #ffffff;
+}
+
+.main  {
+    align-items: center;
+    background-color: #fff;
+}
