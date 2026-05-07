@@ -50,4 +50,22 @@ header h2 {
     text-decoration: none;
 }
 
+.poesia:hover {
+    text-decoration: underline;
+}
+
+.p1 {
+    height: 80vh;
+}
+
+.p1 p {
+    padding: 20px;
+}
+
+.flor {
+    background-image: url(imagens/background001.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
