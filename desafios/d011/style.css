@@ -1,0 +1,23 @@
+@charset "UTF-8"
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Arabetics ;
+    src: url(fontes/Arabetics\Harfi\Regular.ttf);
+}
+
+@font-face {
+    font-family: Mellnik;
+    src: url(fontes/Mellnik-Text-W01-Heavy.ttf);
+}
+
+:root {
+        --fonte-titulo: "Mellnik", Arial, sans-serif;
+        --fonte-paragrafo: "Arabetics", Arial, sans-serif;
+}
+
+
