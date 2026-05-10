@@ -58,9 +58,11 @@ header a:hover, footer a:hover {
 section.estrofe {
     background-color: white;
     color: black;
+    border-radius: 3px;
 }
 
 section {
+    padding-left: 1.5rem;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -70,11 +72,26 @@ section {
 
 section.imagem {
     background-color: wheat;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.493);
+     background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.288);
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.514);
     width: 400px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section.imagem#flor {
+    background-image: url(imagens/background001.jpg);
+    background-position:  right center;
+}
+
+section.imagem#livro {
+    background-image: url(imagens/background002.jpg);
+    background-position:  right center;
 }
 
 footer {

@@ -82,6 +82,7 @@ p {
     height: 85vh;
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
 }
 
 .p3 {
@@ -99,6 +100,7 @@ p {
     height: 80vh;
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
 }
 
 .p5 {
