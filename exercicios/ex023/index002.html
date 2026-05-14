@@ -15,16 +15,18 @@
             border-collapse: collapse;
         }
 
-        td,
-        th {
+        td, th {
             border: 1px solid black;
             padding: 0.6rem;
         }
 
-        thead,
-        tfoot {
+        thead, tfoot {
             background-color: #706e6e;
             color: white;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightgray;
         }
 
         td.num {
@@ -36,6 +38,10 @@
             font-size: 1.5rem;
             font-weight: bold;
             background-color: #cac8c8;
+        }
+
+        th.populacao {
+            width: 5rem;
         }
     </style>
 </head>
@@ -57,8 +63,8 @@
         <caption>População dos Estados Brasileiros</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th class="populacao" scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -196,10 +202,10 @@
         </tbody>
 
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>210 147 125</strong></td>
         </tfoot>
-        
+
     </table>
 </body>
 
