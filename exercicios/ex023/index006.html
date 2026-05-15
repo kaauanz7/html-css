@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 32vw;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 1rem;
+        }
+
+        thead,
+        tfoot {
+            background-color: #706e6e;
+            color: white;
+        }
+
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: #706e6e;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        caption {
+            padding: 0.6rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+            background-color: #cac8c8;
+        }
+
+        div.container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelas em Tela Pequena</h1>
+
+    <div class="container">
+        <table>
+
+            <caption>Tabelas Responsivas</caption>
+
+            <thead>
+
+                <tr>
+
+                    <th>Produto</th>
+                    <td>Jan</td>
+                    <td>Fev</td>
+                    <td>Mar</td>
+                    <td>Abr</td>
+                    <td>Mai</td>
+                    <td>Jun</td>
+                    <td>Jul</td>
+                    <td>Ago</td>
+                    <td>Set</td>
+                    <td>Out</td>
+                    <td>Nov</td>
+                    <td>Dez</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Arroz Tipo 1 5kg</td>
+                    <td>120</td>
+                    <td>135</td>
+                    <td>98</td>
+                    <td>110</td>
+                    <td>145</td>
+                    <td>160</td>
+                    <td>155</td>
+                    <td>170</td>
+                    <td>180</td>
+                    <td>190</td>
+                    <td>200</td>
+                    <td>210</td>
+                </tr>
+                <tr>
+                    <td>Feijão Carioca 1kg</td>
+                    <td>80</td>
+                    <td>95</td>
+                    <td>100</td>
+                    <td>90</td>
+                    <td>105</td>
+                    <td>120</td>
+                    <td>130</td>
+                    <td>125</td>
+                    <td>140</td>
+                    <td>150</td>
+                    <td>160</td>
+                    <td>170</td>
+                </tr>
+                <tr>
+                    <td>Macarrão Espaguete</td>
+                    <td>200</td>
+                    <td>210</td>
+                    <td>190</td>
+                    <td>220</td>
+                    <td>230</td>
+                    <td>240</td>
+                    <td>250</td>
+                    <td>260</td>
+                    <td>270</td>
+                    <td>280</td>
+                    <td>300</td>
+                    <td>320</td>
+                </tr>
+                <tr>
+                    <td>Óleo de Soja 900ml</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>55</td>
+                    <td>70</td>
+                    <td>65</td>
+                    <td>75</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>95</td>
+                    <td>100</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <td>Açúcar Refinado 1kg</td>
+                    <td>300</td>
+                    <td>310</td>
+                    <td>320</td>
+                    <td>330</td>
+                    <td>340</td>
+                    <td>350</td>
+                    <td>360</td>
+                    <td>370</td>
+                    <td>380</td>
+                    <td>390</td>
+                    <td>400</td>
+                    <td>420</td>
+                </tr>
+                <tr>
+                    <td>Leite Integral 1L</td>
+                    <td>150</td>
+                    <td>140</td>
+                    <td>145</td>
+                    <td>155</td>
+                    <td>165</td>
+                    <td>175</td>
+                    <td>185</td>
+                    <td>195</td>
+                    <td>205</td>
+                    <td>215</td>
+                    <td>225</td>
+                    <td>235</td>
+                </tr>
+                <tr>
+                    <td>Café Torrado e Moído 500g</td>
+                    <td>90</td>
+                    <td>85</td>
+                    <td>95</td>
+                    <td>100</td>
+                    <td>110</td>
+                    <td>120</td>
+                    <td>130</td>
+                    <td>140</td>
+                    <td>150</td>
+                    <td>160</td>
+                    <td>170</td>
+                    <td>180</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
