@@ -21,18 +21,45 @@ header h1 {
     text-align: center;
 }
 
-nav li {
-    background-color: rgb(83, 82, 82);
-    display: inline-block;
+i#menu {
+    display: block;
+    background-color: rgb(44, 43, 43);
+    text-align: center;
     padding: 10px;
     color: white;
+}
+
+i#menu:hover {
+    background-color: white;
+    color: black;
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(68, 67, 67);
+    color: white;
+}
+
+nav a:hover {
+    background-color: gray;
 }
 
 article {
     background-color: white;
     display: block;
     margin: auto;
-    width: 700px;
+    width: 400px;
     border-radius: 10px;
 }
 

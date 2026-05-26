@@ -9,20 +9,48 @@
         display: none;
     }
 
+    article {
+        width: 100%;
+    }
+
     article::after {
         text-decoration: overline;
         content: "Essa impressão foi realizada no site xxxxx.com";
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     article {
-        width: 400px;
+        width: 700px;
     }
+
+    nav li {
+    display: inline-block;
+    color: white;
+}
+
+    nav li a:hover {
+    cursor: pointer;
+    color: rgb(147, 147, 206);
+}
 }
 
 @media screen and (min-width: 1200px) {
     article {
         width: 1000px;
     }
+
+    i#menu {
+        display: none;
+    }
+
+    nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+    nav li a:hover {
+    cursor: pointer;
+    color: rgb(147, 147, 206);
+}
 }
