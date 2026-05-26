@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    nav {
+        display: none;
+    }
+
+    article::after {
+        text-decoration: overline;
+        content: "Essa impressão foi realizada no site xxxxx.com";
+    }
+}
+
+@media screen and (max-width: 768px) {
+    article {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    article {
+        width: 1000px;
+    }
+}
