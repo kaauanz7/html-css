@@ -2,6 +2,7 @@
 .container{
     display: flex;
     background-color: blue;
+    flex-flow: row wrap;
 }
 
 .item {
@@ -9,5 +10,7 @@
     color: aliceblue;
     border: 1px solid #000000;
     padding: 10px;
-    text-align: center;  
+    text-align: center;
+    flex: auto;
+    width: 100px;
 }
