@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #ff0606;
+    color: aliceblue;
+    flex: auto;
+    border: 1px solid #fff;
+}
