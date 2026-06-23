@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aqua;
+    height: 300px;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.item {
+    padding: 50px;
+    background-color: #ff0606;
+    color: aliceblue;
+    border: 1px solid #fff;
+}
