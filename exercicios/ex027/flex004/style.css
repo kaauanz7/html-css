@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: bisque;
+
+    height: 300px;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    flex-flow: row nowrap;
+
+    align-items: stretch;
+}
+
+.item {
+    width: 100px;
+    background-color: #ff0606;
+    color: aliceblue;
+    border: 1px solid #fff;
+}
