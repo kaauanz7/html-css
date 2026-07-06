@@ -14,15 +14,32 @@
         .container {
             border: #0026ff 3px solid;
             display: grid;
-            grid-template: repeat(3, 80px) / 1fr 2fr 1fr;
-            grid-auto-rows: 80px;
-            grid-auto-columns: 120px;
-            gap: 10px;
-            place-items: normal;
-            place-content: normal;
+            grid-template: repeat(3, 100px) / repeat(4, 1fr);
+        }
+        
+        .item1 {
+            background-color: #ff0000;
+            /*grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 5;*/
+            grid-area: 1 / 1 / 2 / 5;
         }
 
-
+        .item2 {
+            background-color: #0026ff;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .item3 {
+            background-color: green;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
         .container div {
             border: 2px solid #ff0000;
             text-align: center;
@@ -32,13 +49,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
+        <div class="item1">Caixa 01</div>
+        <div class="item2">Caixa 02</div>
+        <div class="item3">Caixa 03</div>
     </div>
 </body>
 </html>
